@@ -10,6 +10,7 @@
 }
 
 body {
+    font-family: sytem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     height: 100vh;
     background-color: #000;
     display: flex;
@@ -51,9 +52,15 @@ body {
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
     gap: 20px;
+    font-size: 20px;
+
+    @media(min-width: 1200px) {
+        font-size: 24px;
+    }
 }
 
 .calculator-button {
+    font-family: math, cursive, sans-serif;
     background-color: #2D2D33;
     color: #fff;
     padding: 20px;
